@@ -1,7 +1,7 @@
 mod_jstripe
 ===========
 
-A simple [https://stripe.com/](Stripe) Checkout module for [http://joomla.org/](Joomla!) CMS.
+A simple <a href="https://stripe.com/">Stripe</a> Checkout module for <a href="http://joomla.org/">Joomla!</a> CMS.
 
 This is really just a basic module to get you started using Stripe's Checkout button.
 
