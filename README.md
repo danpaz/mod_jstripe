@@ -1,10 +1,9 @@
 mod_jstripe
 ===========
 
-A simple Stripe[1] Checkout module for Joomla! CMS.
+A simple [https://stripe.com/](Stripe) Checkout module for [http://joomla.org/](Joomla!) CMS.
 
-[1]: https://stripe.com/
-[2]: http://joomla.org/
+This is really just a basic module to get you started using Stripe's Checkout button.
 
 ## Installation
 
@@ -14,5 +13,3 @@ A simple Stripe[1] Checkout module for Joomla! CMS.
 
 ## Usage
 Add the module through the Module Manager, adjust the basic settings as necessary.
-
-This is really just a basic module to get you started using Stripe's Checkout button.
