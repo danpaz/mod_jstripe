@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Stripe Checkout Button</name>
+    <author>danpaz</author>
+    <version>1.2.0</version>
+    <description>A simple Stripe Checkout button</description>
+    <files>
+        <filename>mod_jstripe.xml</filename>
+        <filename module="mod_jstripe">mod_jstripe.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		<filename>tmpl/includes/config.inc.php</filename>
+		<filename>tmpl/includes/index.html</filename>
+    </files>
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="itemname" type="text" default="Name" label="Input a name for the item" required="true"/>
+			</fieldset>
+			<fieldset name="basic">
+				<field name="itemdesc" type="textarea" default="Description" label="Input a description" required="false" rows="10" cols="5" filter="raw"/>
+			</fieldset>
+			<fieldset name="basic">
+				<field name="amount" type="text" default="10" label="Input an amount ($)" required="true"/>
+			</fieldset>
+			<fieldset name="basic">
+				<field name="currency" type="list" default="usd" label="Select a currency" description="">
+				  <option value="usd">USD</option>
+				</field>
+			</fieldset>
+		</fields>
+    </config>
+</extension>

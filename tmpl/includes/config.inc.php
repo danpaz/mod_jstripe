@@ -1,0 +1,3 @@
+<?php
+define('STRIPE_PRIVATE_KEY', '<YOUR SECRET KEY>');
+define('STRIPE_PUBLIC_KEY', '<YOUR PUBLISHABLE KEY>'); 
