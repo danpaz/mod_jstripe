@@ -7,9 +7,11 @@ This is really just a basic module to get you started using Stripe's Checkout bu
 
 ## Installation
 
-1. Download as .zip or .tar.gz.
-2. Update config.inc.php with your SECRET and PUBLISHABLE keys. 
-3. Upload and install from the Extension manager in your Joomla! backend
+1. Download Stripe PHP library to your server
+2. Download this module as .zip or .tar.gz.
+3. Update config.inc.php with your SECRET and PUBLISHABLE keys. 
+4. Update link to /lib/Stripe.php to whereever you uploaded the PHP library
+5. Upload and install this module from the Extension manager in your Joomla! backend
 
 ## Usage
 Add the module through the Module Manager, adjust the basic settings as necessary.
